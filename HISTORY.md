@@ -5,7 +5,7 @@
 - Release date: 11. April 2023
 - Supported Proteome Discoverer versions: 3.0
 - Changes:
-  - Minor:
+  - Bugfixes:
     - Fixed a bug that displayed the wrong charges for cross-linked peptides in the CSM result table 
 
 ## MS Annika v1.1.3
