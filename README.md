@@ -9,7 +9,7 @@ You can read more about MS Annika [here](https://ms.imp.ac.at/?action=ms-annika)
 - Latest version for Proteome Discoverer 3.0: [**download**](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/releases/latest/PD3.0/latest.zip)
 - Latest version for Proteome Discoverer 2.5: [**download**](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/releases/latest/PD2.5/latest.zip)
 - Latest version for Proteome Discoverer 2.4: [**download**](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/releases/latest/PD2.4/latest.zip)
-- Latest version for Proteome Discoverer 3.3: [**download**](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/releases/latest/PD2.3/latest.zip)
+- Latest version for Proteome Discoverer 2.3: [**download**](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/releases/latest/PD2.3/latest.zip)
 
 A list of changes in every version can be found in [HISTORY.md](https://github.com/hgb-bin-proteomics/MSAnnika/blob/master/HISTORY.md).
 
