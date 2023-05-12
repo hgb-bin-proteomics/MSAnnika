@@ -1,5 +1,18 @@
 # History
 
+## MS Annika 2.0 v1.2.0
+
+- Release date: 12. May 2023
+- Supported Proteome Discoverer versions: 3.1
+- Changes:
+  - Major:
+    - Upgrade MS Annika to Net6.0
+    - Upgrade internal MS Amanda version to 3.0.20.953
+  - Minor:
+    - Several changes to support Proteome Discoverer version 3.1 and the new MS Amanda engine
+  - Bugfixes:
+    - Introduced a consistency check for decoy protein order that should prevent debug prompts for "not all accessions found in target and decoy files"
+
 ## MS Annika 2.0 v1.1.4
 
 - Release date: 11. April 2023
