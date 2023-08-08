@@ -18,7 +18,7 @@ A list of changes in every version can be found in [HISTORY.md](https://github.c
 
 Example workflows that can be used in Proteome Discoverer*:
 
-- [DSSO MS2 search (CID, ETD, HCD, stepped HCD)](https://raw.githubusercontent.com/hgb-bin-proteomics/MSAnnika/master/workflows/PD3.0/DSSO_MS2.pdAnalysis)
+- [DSSO MS2 search (CID, ETD, HCD, stepped HCD)](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_MS2.pdAnalysis)
 - [DSSO MS2-MS3 search (MS3 recorded in the orbitrap)](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_MS2_MS3_Orbitrap.pdAnalysis)
 - [DSSO MS2-MS3 search (MS3 recorded in the ion trap)](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_MS2_MS3_Iontrap.pdAnalysis)
 
