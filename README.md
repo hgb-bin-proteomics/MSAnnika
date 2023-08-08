@@ -14,6 +14,16 @@ You can read more about MS Annika [here](https://ms.imp.ac.at/?action=ms-annika)
 
 A list of changes in every version can be found in [HISTORY.md](https://github.com/hgb-bin-proteomics/MSAnnika/blob/master/HISTORY.md).
 
+## Example Workflows
+
+Example workflows that can be used in Proteome Discoverer*:
+
+- [DSSO MS2 search (CID, ETD, HCD, stepped HCD)](https://raw.githubusercontent.com/hgb-bin-proteomics/MSAnnika/master/workflows/PD3.0/DSSO_MS2.pdAnalysis)
+- [DSSO MS2-MS3 search (MS3 recorded in the orbitrap)](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_MS2_MS3_Orbitrap.pdAnalysis)
+- [DSSO MS2-MS3 search (MS3 recorded in the ion trap)](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_MS2_MS3_Iontrap.pdAnalysis)
+
+*The provided workflows also require the installation of [MS Amanda](https://dx.doi.org/10.1021/pr500202e) which can be downloaded [here](https://ms.imp.ac.at/?action=ms-amanda).
+
 ## Known Issues
 
 [List of known issues](https://github.com/hgb-bin-proteomics/MSAnnika/issues)
