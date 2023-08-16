@@ -2,7 +2,7 @@
 
 MS Annika is a crosslink search engine based on [MS Amanda](https://dx.doi.org/10.1021/pr500202e), aimed at identifying crosslinks of MS2-cleavable crosslinkers from MS2 and MS3 spectra.
 
-You can read more about MS Annika [here](https://ms.imp.ac.at/?action=ms-annika) and [here](https://doi.org/10.1021/acs.jproteome.0c01000).
+You can read more about MS Annika [here](https://ms.imp.ac.at/?action=ms-annika), [here](https://doi.org/10.1021/acs.jproteome.0c01000) and [here](https://doi.org/10.1021/acs.jproteome.3c00325).
 
 **This repository contains the latest release versions of MS Annika.**
 
@@ -14,13 +14,17 @@ You can read more about MS Annika [here](https://ms.imp.ac.at/?action=ms-annika)
 
 A list of changes in every version can be found in [HISTORY.md](https://github.com/hgb-bin-proteomics/MSAnnika/blob/master/HISTORY.md).
 
+## Tutorial
+
+A tutorial of how to use MS Annika 2.0 can be found here: [Text](https://github.com/hgb-bin-proteomics/MSAnnika/blob/master/tutorial/MS_Annika_2.0_Tutorial.pdf) / [Video](https://www.youtube.com/watch?v=L1lVt35PYv4)
+
 ## Example Workflows
 
 Example workflows that can be used in Proteome Discoverer*:
 
-- [DSSO MS2 search (CID, ETD, HCD, stepped HCD)](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_MS2.pdAnalysis)
-- [DSSO MS2-MS3 search (MS3 recorded in the orbitrap)](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_MS2_MS3_Orbitrap.pdAnalysis)
-- [DSSO MS2-MS3 search (MS3 recorded in the ion trap)](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_MS2_MS3_Iontrap.pdAnalysis)
+- DSSO MS2 search (CID, ETD, HCD, stepped HCD): [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_MS2.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_MS2.zip)
+- DSSO MS2-MS3 search (MS3 recorded in the orbitrap): [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_MS2_MS3_Orbitrap.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_MS2_MS3_Orbitrap.zip)
+- DSSO MS2-MS3 search (MS3 recorded in the ion trap): [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_MS2_MS3_Iontrap.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_MS2_MS3_Iontrap.zip)
 
 *The provided workflows also require the installation of [MS Amanda](https://dx.doi.org/10.1021/pr500202e) which can be downloaded [here](https://ms.imp.ac.at/?action=ms-amanda).
 
