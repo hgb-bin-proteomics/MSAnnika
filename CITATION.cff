@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Birklbauer"
+    given-names: "Micha J."
+    orcid: "https://orcid.org/0009-0005-1051-179X"
+  - family-names: "Matzinger"
+    given-names: "Manuel"
+    orcid: "https://orcid.org/0000-0002-9765-7951"
+  - family-names: "Müller"
+    given-names: "Fränze"
+    orcid: "https://orcid.org/0000-0003-3764-3547"
+  - family-names: "Mechtler"
+    given-names: "Karl"
+    orcid: "https://orcid.org/0000-0002-3392-9946"
+  - family-names: "Dorfer"
+    given-names: "Viktoria"
+    orcid: "https://orcid.org/0000-0002-5332-5701"
+  doi: "10.1021/acs.jproteome.3c00325"
+  journal: "Journal of Proteome Research"
+  month: 9
+  start: 3009
+  end: 3021
+  title: "MS Annika 2.0 Identifies Cross-Linked Peptides in MS2–MS3-Based Workflows at High Sensitivity and Specificity"
+  issue: 9
+  volume: 22
+  year: 2023
