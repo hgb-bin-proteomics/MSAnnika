@@ -33,6 +33,10 @@ Example workflows that can be used in Proteome Discoverer*:
 
 *The provided workflows also require the installation of [MS Amanda](https://dx.doi.org/10.1021/pr500202e) which can be downloaded [here](https://ms.imp.ac.at/?action=ms-amanda).
 
+The general workflow for almost any crosslink search looks like this:
+
+[!general_wf](workflows/general_wf.png)
+
 ## Known Issues
 
 [List of known issues](https://github.com/hgb-bin-proteomics/MSAnnika/issues)
