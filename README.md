@@ -35,7 +35,7 @@ Example workflows that can be used in Proteome Discoverer*:
 
 The general workflow for almost any crosslink search looks like this:
 
-[!general_wf](workflows/general_wf.png)
+![general_wf](workflows/general_wf.png)
 
 ## Known Issues
 
