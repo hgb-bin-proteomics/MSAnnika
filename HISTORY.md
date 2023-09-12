@@ -13,13 +13,23 @@
   - Bugfixes:
     - Introduced a consistency check for decoy protein order that should prevent debug prompts for "not all accessions found in target and decoy files"
 
+## MS Annika 2.0 v1.1.4fix
+
+- Release date: 11. September 2023
+- Supported Proteome Discoverer versions: 3.0
+- Changes:
+  - Bugfixes:
+    - Fixed a bug that prevented reading of MGF files
+    - Fixed a bug that prevented processing of MGF files due to missing fragment ion charge states
+- Additional notes: This is a bugfix release for MS Annika 2.0 for Proteome Discoverer 3.0, these fixes are not included in MS Annika 2.0 v1.2.0 but will be included in MS Annika 2.0 v2.2.1 (Proteome Discoverer 3.1).
+
 ## MS Annika 2.0 v1.1.4
 
 - Release date: 11. April 2023
 - Supported Proteome Discoverer versions: 3.0
 - Changes:
   - Bugfixes:
-    - Fixed a bug that displayed the wrong charges for cross-linked peptides in the CSM result table 
+    - Fixed a bug that displayed the wrong charges for cross-linked peptides in the CSM result table
 
 ## MS Annika 2.0 v1.1.3
 
