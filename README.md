@@ -48,7 +48,7 @@ For MS2 searches (CID, ETD, HCD, stepped HCD) it can also be beneficial to emplo
 
 - DSSO MS2 search with IMP MS2 Spectrum Processor: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_IMP_MS2.zip) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_IMP_MS2.zip)
 
-This workflow additionally requires the installation of the [IMP MS2 Spectrum Processor](https://ms.imp.ac.at/?action=spectrum-processor) node beforehand, which can be directly downloaded from here: [download](https://ms.imp.ac.at/?file=spectrum-processor/ms2spectrumprocessor_3.0.zip)
+This workflow additionally requires the installation of the [IMP MS2 Spectrum Processor](https://ms.imp.ac.at/?action=spectrum-processor) node beforehand, which can be directly downloaded from [here](https://ms.imp.ac.at/?file=spectrum-processor/ms2spectrumprocessor_3.0.zip).
 
 ## Support for MGF and timsTOF Data
 
