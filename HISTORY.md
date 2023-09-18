@@ -1,5 +1,20 @@
 # History
 
+## MS Annika 2.0 v2.2.1
+
+- Release date: 18. September 2023
+- Supported Proteome Discoverer versions: 3.1
+- Changes:
+  - Minor:
+    - Added a retention time window parameter for MS3 search
+    - Added the number of found doublets to the CSM result table
+    - Changed the default values of several parameters to better reflect current cross-linking workflows
+    - Added a charge determination algorithm for calculating missing fragment ion charge states
+  - Bugfixes:
+    - Fixed a bug in relation to N-terminal protein modifications in the internal MS Amanda version
+    - Fixed a bug that prevented reading of MGF and timsTOF files
+    - Fixed a bug that prevented associating MSn scans with peptide hits and therefore led to improper usage of the MS3 rescoring function and spectrum display in Proteome Discoverer
+
 ## MS Annika 2.0 v1.2.0
 
 - Release date: 12. May 2023
