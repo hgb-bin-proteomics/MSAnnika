@@ -26,7 +26,7 @@ Example files to try MS Annika 2.0 can either be downloaded from [PRIDE](https:/
 
 ## Example Workflows
 
-Example workflows that can be used in Proteome Discoverer*:
+Example workflows that can be used in Proteome Discoverer:
 
 - Proteome Discoverer 3.0 / 3.1:
   - DSSO MS2 search (CID, ETD, HCD, stepped HCD): [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_MS2.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_MS2.zip)
@@ -40,15 +40,15 @@ Example workflows that can be used in Proteome Discoverer*:
   - DSSO MS2-MS3 search (MS3 recorded in the orbitrap): [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD2.5/DSSO_MS2_MS3_Orbitrap.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD2.5/DSSO_MS2_MS3_Orbitrap.zip)
   - DSSO MS2-MS3 search (MS3 recorded in the ion trap): [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD2.5/DSSO_MS2_MS3_Iontrap.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD2.5/DSSO_MS2_MS3_Iontrap.zip)
 
+The provided workflows also require the installation of [MS Amanda](https://dx.doi.org/10.1021/pr500202e) which can be downloaded [here](https://ms.imp.ac.at/?action=ms-amanda).
+
 The general processing workflow for almost any crosslink search is depicted [here](workflows/general_wf.png).
 
 For MS2 searches (CID, ETD, HCD, stepped HCD) it can also be beneficial to employ the [IMP MS2 Spectrum Processor](https://ms.imp.ac.at/?action=spectrum-processor) node, an example workflow for Proteome Discoverer 3.0 is given here:
 
 - DSSO MS2 search with IMP MS2 Spectrum Processor: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_IMP_MS2.zip) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_IMP_MS2.zip)
 
-This workflow requires the installation of the [IMP MS2 Spectrum Processor](https://ms.imp.ac.at/?action=spectrum-processor) node beforehand, which can be directly downloaded from here: [download](https://ms.imp.ac.at/?file=spectrum-processor/ms2spectrumprocessor_3.0.zip)
-
-\*The provided workflows also require the installation of [MS Amanda](https://dx.doi.org/10.1021/pr500202e) which can be downloaded [here](https://ms.imp.ac.at/?action=ms-amanda).
+This workflow additionally requires the installation of the [IMP MS2 Spectrum Processor](https://ms.imp.ac.at/?action=spectrum-processor) node beforehand, which can be directly downloaded from here: [download](https://ms.imp.ac.at/?file=spectrum-processor/ms2spectrumprocessor_3.0.zip)
 
 ## Support for MGF and timsTOF Data
 
