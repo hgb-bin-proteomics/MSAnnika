@@ -1,9 +1,22 @@
 # History
 
+## MS Annika 2.0 v2.2.2
+
+- Release date: 17. October 2023
+- Supported Proteome Discoverer versions: 3.1
+- Changes:
+  - Minor:
+    - Upgrade MS Annika to Net7.0
+    - Add a "Connected MS3 Scans" column to the CSM result table
+    - Add a warning message in the MS3 search if "Use MS1 Precursor" is used
+  - Bugfixes:
+    - Fixed a bug that prevented running MS Annika in Proteome Discoverer 3.1
+    - Fixed a bug in relation to running MS Annika in combination with MS Amanda
+
 ## MS Annika 2.0 v2.2.1
 
 - Release date: 18. September 2023
-- Supported Proteome Discoverer versions: 3.1
+- Supported Proteome Discoverer versions: 3.1.0.395
 - Changes:
   - Minor:
     - Added a retention time window parameter for MS3 search
@@ -14,11 +27,12 @@
     - Fixed a bug in relation to N-terminal protein modifications in the internal MS Amanda version
     - Fixed a bug that prevented reading of MGF and timsTOF files
     - Fixed a bug that prevented associating MSn scans with peptide hits and therefore led to improper usage of the MS3 rescoring function and spectrum display in Proteome Discoverer
+- Additional notes: This version of MS Annika 2.0 only works for Proteome Discoverer 3.1.0.395. The current release version of Proteome Discover (3.1.0.638) requires MS Annika 2.0 v2.2.2!
 
 ## MS Annika 2.0 v1.2.0
 
 - Release date: 12. May 2023
-- Supported Proteome Discoverer versions: 3.1
+- Supported Proteome Discoverer versions: 3.1.0.395
 - Changes:
   - Major:
     - Upgrade MS Annika to Net6.0
@@ -27,6 +41,7 @@
     - Several changes to support Proteome Discoverer version 3.1 and the new MS Amanda engine
   - Bugfixes:
     - Introduced a consistency check for decoy protein order that should prevent debug prompts for "not all accessions found in target and decoy files"
+- Additional notes: This version of MS Annika 2.0 only works for Proteome Discoverer 3.1.0.395. The current release version of Proteome Discover (3.1.0.638) requires MS Annika 2.0 v2.2.2!
 
 ## MS Annika 2.0 v1.1.4fix
 
