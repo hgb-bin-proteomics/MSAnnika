@@ -1,12 +1,12 @@
 # MS Annika
 
-MS Annika is a crosslink search engine based on [MS Amanda](https://dx.doi.org/10.1021/pr500202e), aimed at identifying crosslinks of MS2-cleavable crosslinkers from MS2 and MS3 spectra.
+MS Annika is a crosslink search engine based on [MS Amanda](https://dx.doi.org/10.1021/pr500202e), aimed at identifying crosslinks of cleavable and non-cleavable crosslinkers from MS2 and MS3 spectra.
 
 You can read more about MS Annika [here](https://ms.imp.ac.at/?action=ms-annika), [here](https://doi.org/10.1021/acs.jproteome.0c01000) and [here](https://doi.org/10.1021/acs.jproteome.3c00325).
 
 **This repository contains the latest release versions of MS Annika.**
 
-- Latest MS Annika 2.0 [version](https://raw.githubusercontent.com/hgb-bin-proteomics/MSAnnika/master/releases/latest/PD3.1/version.txt) for Proteome Discoverer 3.1: [**download**](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/releases/latest/PD3.1/latest.zip)
+- Latest MS Annika 3.0 [version](https://raw.githubusercontent.com/hgb-bin-proteomics/MSAnnika/master/releases/latest/PD3.1/version.txt) for Proteome Discoverer 3.1: [**download**](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/releases/latest/PD3.1/latest.zip)
 - Latest MS Annika 2.0 [version](https://raw.githubusercontent.com/hgb-bin-proteomics/MSAnnika/master/releases/latest/PD3.0/version.txt) for Proteome Discoverer 3.0: [**download**](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/releases/latest/PD3.0/latest.zip)
 - Latest MS Annika 2.0 [version](https://raw.githubusercontent.com/hgb-bin-proteomics/MSAnnika/master/releases/latest/PD2.5/version.txt) for Proteome Discoverer 2.5: [**download**](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/releases/latest/PD2.5/latest.zip)
 - Latest MS Annika [version](https://raw.githubusercontent.com/hgb-bin-proteomics/MSAnnika/master/releases/latest/PD2.4/version.txt) for Proteome Discoverer 2.4: [**download**](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/releases/latest/PD2.4/latest.zip)
@@ -16,13 +16,14 @@ A list of changes in every version can be found in [HISTORY.md](https://github.c
 
 ## Tutorial
 
-A tutorial of how to use MS Annika 2.0 can be found here: [Text](https://github.com/hgb-bin-proteomics/MSAnnika/blob/master/tutorial/MS_Annika_2.0_Tutorial.pdf) / [Video](https://www.youtube.com/watch?v=L1lVt35PYv4)
+A tutorial of how to use MS Annika 3.0 can be found here: [Text](https://github.com/hgb-bin-proteomics/MSAnnika/blob/master/tutorial/MS_Annika_2.0_Tutorial.pdf) / [Video](https://www.youtube.com/watch?v=L1lVt35PYv4)
 
 ## Example Files
 
-Example files to try MS Annika 2.0 can either be downloaded from [PRIDE](https://www.ebi.ac.uk/pride/archive/projects/PXD041955) or directly here:
-- Minimal example for MS2 search: [MGF + fasta](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/examples/data.zip)
-- RAW file for MS3 search: [RAW](https://ftp.pride.ebi.ac.uk/pride/data/archive/2023/08/PXD041955/20211219_Eclipse_LC4_G2_Trap_backflash_Peplib20_DSSO_pl1_MS3_OTOTOT.raw)
+Example files to try MS Annika 3.0 can either be downloaded from [PRIDE](https://www.ebi.ac.uk/pride/archive/projects/PXD041955) or directly here:
+- Minimal example for a cleavable crosslink MS2 search: [MGF + fasta](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/examples/data.zip)
+- RAW file for a non-cleavable crosslink MS2 search: [RAW](https://ftp.pride.ebi.ac.uk/pride/data/archive/2020/07/PXD014337/XLpeplib_Beveridge_QEx-HFX_DSS_R1.raw)
+- RAW file for a cleavable crosslink MS3 search: [RAW](https://ftp.pride.ebi.ac.uk/pride/data/archive/2023/08/PXD041955/20211219_Eclipse_LC4_G2_Trap_backflash_Peplib20_DSSO_pl1_MS3_OTOTOT.raw)
 
 ## Example Workflows
 
@@ -48,17 +49,17 @@ For MS2 searches (CID, ETD, HCD, stepped HCD) it can also be beneficial to emplo
 
 - DSSO MS2 search with IMP MS2 Spectrum Processor: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_IMP_MS2.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_IMP_MS2.zip)
 
-This workflow additionally requires the installation of the [IMP MS2 Spectrum Processor](https://ms.imp.ac.at/?action=spectrum-processor) node beforehand, which can be directly downloaded from [here](https://ms.imp.ac.at/?file=spectrum-processor/ms2spectrumprocessor_3.0.zip).
+This workflow additionally requires the installation of the [IMP MS2 Spectrum Processor](https://ms.imp.ac.at/?action=spectrum-processor) node beforehand, which can be directly downloaded from [here (Proteome Discoverer 3.0)](https://ms.imp.ac.at/?file=spectrum-processor/ms2spectrumprocessor_3.0.zip).
 
 ## Support for MGF and timsTOF Data
 
 The following MS Annika versions support MGF\* and timsTOF\*\* data input:
-- Proteome Discoverer 3.1: [MS Annika 2.0 v2.2.1](https://github.com/hgb-bin-proteomics/MSAnnika/releases/tag/v2.2.1)
+- Proteome Discoverer 3.1: [MS Annika 2.0 v2.2.1](https://github.com/hgb-bin-proteomics/MSAnnika/releases/tag/v2.2.1) or greater (e.g. [**latest**](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/releases/latest/PD3.1/latest.zip))
 - Proteome Discoverer 3.0: [MS Annika 2.0 v1.1.4fix](https://github.com/hgb-bin-proteomics/MSAnnika/releases/tag/v1.1.4fix)
 - Proteome Discoverer <=2.5: [MS Annika 1.0 v1.0.0](https://github.com/hgb-bin-proteomics/MSAnnika/releases/tag/v1.0.0)\*\*\*
 
-\*MS Annika 2.0 only supports MS2 search for MGF files since MGF files don't contain sufficient MS3 information.  
-\*\*requires installation of the Bruker Ion Mobility reader.  
+\*MS Annika 3.0 only supports MS2 search for MGF files since MGF files don't contain sufficient MS3 information.  
+\*\*optionally requires installation of the Bruker Ion Mobility reader to display ion mobilities in Proteome Discoverer, the node is not needed for crosslink search.  
 \*\*\*requires installation of the [IMP MS2 Spectrum Processor](https://ms.imp.ac.at/?action=spectrum-processor) node.
 
 ## Known Issues
