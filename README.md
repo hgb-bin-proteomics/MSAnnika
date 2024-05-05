@@ -14,6 +14,11 @@ You can read more about MS Annika [here](https://ms.imp.ac.at/?action=ms-annika)
 
 A list of changes in every version can be found in [HISTORY.md](https://github.com/hgb-bin-proteomics/MSAnnika/blob/master/HISTORY.md).
 
+## Parameters
+
+Please refer to the [MS Annika User Manual](https://github.com/hgb-bin-proteomics/MSAnnika/blob/master/MS_Annika_2.0_UserManual.pdf) for a detailed description of all MS Annika parameters as
+well as descriptions of all result tables. For further down-stream analysis of MS Annika results we recommend taking a look at [MS Annika Extensions](https://github.com/hgb-bin-proteomics/MSAnnika_Extensions).
+
 ## Tutorial
 
 A tutorial of how to use MS Annika 3.0 can be found here: [Text](https://github.com/hgb-bin-proteomics/MSAnnika/blob/master/tutorial/MS_Annika_2.0_Tutorial.pdf) / [Video](https://www.youtube.com/watch?v=L1lVt35PYv4)
