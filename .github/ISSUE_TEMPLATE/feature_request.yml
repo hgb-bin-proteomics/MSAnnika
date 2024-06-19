@@ -1,0 +1,27 @@
+name: Feature Request
+description: Request a new feature for MS Annika.
+title: "[Feature Request]: "
+labels: ["enhancement"]
+assignees:
+  - michabirklbauer
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new feature for MS Annika!
+  - type: textarea
+    id: feature-request
+    attributes:
+      label: What feature would you like to see in MS Annika?
+      description: Please give as many details as possible what you would like to do.
+      placeholder: I want...!
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: Thanks for getting in touch with us - in case you want us to reply via email please leave your contact info.
+      placeholder: ex. email@example.com
+    validations:
+      required: false
