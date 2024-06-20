@@ -16,12 +16,12 @@ A list of changes in every version can be found in [HISTORY.md](https://github.c
 
 ## Parameters
 
-Please refer to the [MS Annika User Manual](https://github.com/hgb-bin-proteomics/MSAnnika/blob/master/MS_Annika_2.0_UserManual.pdf) for a detailed description of all MS Annika parameters as
+Please refer to the [MS Annika User Manual](https://github.com/hgb-bin-proteomics/MSAnnika/blob/master/MS_Annika_3.0_UserManual.pdf) for a detailed description of all MS Annika parameters as
 well as descriptions of all result tables. For further down-stream analysis of MS Annika results we recommend taking a look at [MS Annika Extensions](https://github.com/hgb-bin-proteomics/MSAnnika_Extensions).
 
 ## Tutorial
 
-A tutorial of how to use MS Annika 3.0 can be found here: [Text](https://github.com/hgb-bin-proteomics/MSAnnika/blob/master/tutorial/MS_Annika_2.0_Tutorial.pdf) / [Video](https://www.youtube.com/watch?v=L1lVt35PYv4)
+A tutorial of how to use MS Annika 3.0 can be found here: [Text](https://github.com/hgb-bin-proteomics/MSAnnika/blob/master/tutorial/MS_Annika_3.0_Tutorial.pdf) / [Video](https://www.youtube.com/watch?v=L1lVt35PYv4)
 
 ## Example Files
 
@@ -35,7 +35,8 @@ Example files to try MS Annika 3.0 can either be downloaded from [PRIDE](https:/
 Example workflows that can be used in Proteome Discoverer:
 
 - Proteome Discoverer 3.0 / 3.1:
-  - DSS MS2 search (CID, ETD, HCD, stepped HCD):
+  - DSS/BS3 MS2 search (CID, ETD, HCD, stepped HCD): [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.1/DSS.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.1/DSS.zip)
+  - DSS/BS3 MS2 search (for large datasets and proteome-wide searches, CID, ETD, HCD, stepped HCD): [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.1/DSS_big.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.1/DSS_big.zip)
   - DSSO MS2 search (CID, ETD, HCD, stepped HCD): [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_MS2.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_MS2.zip)
   - DSSO MS2-MS3 search (MS3 recorded in the orbitrap): [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_MS2_MS3_Orbitrap.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_MS2_MS3_Orbitrap.zip)
   - DSSO MS2-MS3 search (MS3 recorded in the ion trap): [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_MS2_MS3_Iontrap.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_MS2_MS3_Iontrap.zip)
@@ -92,3 +93,4 @@ DOI: 10.1021/acs.jproteome.0c01000
 ## Contact
 
 - [micha.birklbauer@fh-hagenberg.at](mailto:micha.birklbauer@fh-hagenberg.at)
+- [viktoria.dorfer@fh-hagenberg.at](mailto:viktoria.dorfer@fh-hagenberg.at)
