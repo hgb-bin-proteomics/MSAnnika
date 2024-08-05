@@ -1,5 +1,16 @@
 # History
 
+## MS Annika 3.0 v3.0.2
+
+- Release date: 18. June 2024
+- Supported Proteome Discoverer versions: 3.1
+- Changes:
+  - Major:
+    - New search algorithm to support non-cleavable crosslinkers
+  - Minor:
+    - Accessions and positions of decoy peptides are now also reported
+    - Support for validation with [xiFDR](https://www.rappsilberlab.org/software/xifdr/) using the [xiFDR exporter](https://github.com/hgb-bin-proteomics/MSAnnika_exporters)
+
 ## MS Annika 2.0 v2.2.2
 
 - Release date: 17. October 2023
