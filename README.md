@@ -14,6 +14,25 @@ You can read more about MS Annika [here](https://ms.imp.ac.at/?action=ms-annika)
 
 A list of changes in every version can be found in [HISTORY.md](https://github.com/hgb-bin-proteomics/MSAnnika/blob/master/HISTORY.md).
 
+## Installation
+
+MS Annika is a plug-in for the proteomics software [Proteome Discover](https://www.thermofisher.com/at/en/home/industrial/mass-spectrometry/liquid-chromatography-mass-spectrometry-lc-ms/lc-ms-software/multi-omics-data-analysis/proteome-discoverer-software.html)
+by Thermo Fisher Scientific. Installation of MS Annika requires:
+
+- Installation of Proteome Discoverer (can be downloaded for free from [here](https://www.thermofisher.com/at/en/home/industrial/mass-spectrometry/liquid-chromatography-mass-spectrometry-lc-ms/lc-ms-software/multi-omics-data-analysis/proteome-discoverer-software.html))
+  - (Requirements of Proteome Discoverer apply)
+- Installation of MS Annika via the installer available from this repository
+  - There are no additional requirements other than Proteome Discoverer
+  - Users will be asked to accept the MS Annika license agreement (MS Annika is licensed as freeware)
+  - The typical installation of MS Annika does not take longer than 5 minutes
+  
+The [tutorial](#Tutorial) also covers the installation in detail.
+
+## Usage
+
+MS Annika makes use of the workflow interface in Proteome Discoverer, which should be straight-forward to use. Step by step instructions for people
+unfamiliar with Proteome Discoverer are given in the [tutorial](#Tutorial). The below sections also give an overview of parameters, results, example workflows and example data. Typically an analysis with MS Annika takes a few minutes for small samples and up to a few hours for larger samples and proteome-wide searches.
+
 ## Parameters & Results
 
 Please refer to the [MS Annika User Manual](https://github.com/hgb-bin-proteomics/MSAnnika/blob/master/MS_Annika_3.0_UserManual.pdf) for a detailed description of all MS Annika parameters as
@@ -83,6 +102,11 @@ too! Alternatively, you can always drop us an email at the addresses
 ## Known Issues
 
 [List of known issues](https://github.com/hgb-bin-proteomics/MSAnnika/issues)
+
+## Contributing & Source Code
+
+The MS Annika codebase contains proprietary code and therefore can't be made open source. If you want to contribute to the
+development of MS Annika please contact us and we are happy to team up!
 
 ## Citing
 
