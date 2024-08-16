@@ -14,6 +14,8 @@ You can read more about MS Annika [here](https://ms.imp.ac.at/?action=ms-annika)
 
 A list of changes in every version can be found in [HISTORY.md](https://github.com/hgb-bin-proteomics/MSAnnika/blob/master/HISTORY.md).
 
+*Please note that only MS Annika 3.0 (and above) supports identification of non-cleavable crosslinks and only MS Annika 2.0 (and above) supports identification from MS2-MS2-based acquisition workflows!*
+
 ## Installation
 
 MS Annika is a plug-in for the proteomics software [Proteome Discover](https://www.thermofisher.com/at/en/home/industrial/mass-spectrometry/liquid-chromatography-mass-spectrometry-lc-ms/lc-ms-software/multi-omics-data-analysis/proteome-discoverer-software.html)
