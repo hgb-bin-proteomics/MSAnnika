@@ -11,7 +11,7 @@ MS Annika is a crosslink search engine based on [MS Amanda](https://dx.doi.org/1
 | MS Annika 1.0 Publication: | [doi.org/10.1021/acs.jproteome.0c01000](https://doi.org/10.1021/acs.jproteome.0c01000) |
 | IMP PD Nodes Website:      | [ms.imp.ac.at/?action=ms-annika](https://ms.imp.ac.at/?action=ms-annika)               |
 
-**This repository contains the latest release versions of MS Annika.**
+**This repository contains the latest release versions of MS Annika:**
 
 | Version | Download URL |
 |:--------|:-------------|
