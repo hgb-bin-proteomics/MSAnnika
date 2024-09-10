@@ -2,7 +2,11 @@
 
 MS Annika is a crosslink search engine based on [MS Amanda](https://dx.doi.org/10.1021/pr500202e), aimed at identifying crosslinks of cleavable and non-cleavable crosslinkers from MS2 and MS3 spectra.
 
-You can read more about MS Annika [here](https://ms.imp.ac.at/?action=ms-annika), [here](https://doi.org/10.1021/acs.jproteome.0c01000) and [here](https://doi.org/10.1021/acs.jproteome.3c00325).
+You can read more about MS Annika here:
+- [MS Annika 3.0 Pre-Print](https://doi.org/10.1101/2024.09.03.610962)
+- [MS Annika 2.0 Publication](https://doi.org/10.1021/acs.jproteome.3c00325)
+- [MS Annika 1.0 Publication](https://doi.org/10.1021/acs.jproteome.0c01000)
+- [IMP PD Nodes Website](https://ms.imp.ac.at/?action=ms-annika)
 
 **This repository contains the latest release versions of MS Annika.**
 
@@ -27,7 +31,7 @@ by Thermo Fisher Scientific. Installation of MS Annika requires:
   - There are no additional requirements other than Proteome Discoverer
   - Users will be asked to accept the MS Annika license agreement (MS Annika is licensed as freeware)
   - The typical installation of MS Annika does not take longer than 5 minutes
-  
+
 The [tutorial](#Tutorial) also covers the installation in detail.
 
 ## Usage
