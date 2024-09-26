@@ -138,5 +138,6 @@ DOI: 10.1021/acs.jproteome.0c01000
 
 ## Contact
 
+- \[preferred\] [proteomics@fh-hagenberg.at](mailto:proteomics@fh-hagenberg.at)
 - [micha.birklbauer@fh-hagenberg.at](mailto:micha.birklbauer@fh-hagenberg.at)
 - [viktoria.dorfer@fh-hagenberg.at](mailto:viktoria.dorfer@fh-hagenberg.at)
