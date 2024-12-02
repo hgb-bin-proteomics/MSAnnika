@@ -1,5 +1,14 @@
 # History
 
+## MS Annika 3.0 v3.0.5
+
+- Release date: 2. December 2024
+- Supported Proteome Discoverer versions: 3.1
+- Changes:
+  - Minor:
+    - Several memory optimizations to better deal with Astral data
+    - Removed experimental rescoring feature for non-cleavable crosslinks
+
 ## MS Annika 3.0 v3.0.2
 
 - Release date: 18. June 2024
