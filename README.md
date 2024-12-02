@@ -88,6 +88,14 @@ For MS2 searches (CID, ETD, HCD, stepped HCD) it can also be beneficial to emplo
 
 This workflow additionally requires the installation of the [IMP MS2 Spectrum Processor](https://ms.imp.ac.at/?action=spectrum-processor) node beforehand, which can be directly downloaded from [here (Proteome Discoverer 3.0)](https://ms.imp.ac.at/?file=spectrum-processor/ms2spectrumprocessor_3.0.zip).
 
+## Support for Astral Data
+
+In order to process crosslinking data from Astral instruments we recommend using [MS Annika 3.0 v3.0.5](https://github.com/hgb-bin-proteomics/MSAnnika/releases/tag/v3.0.5) or greater (e.g. [**latest**](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/releases/latest/PD3.1/latest.zip)). Although theoretically all MS Annika versions support Astral data, earlier versions require sufficient hardware for processing RAW files of more than 100 000 spectra (specifically enough memory, 128GB+ is recommended). MS Annika version 3.0.5+ is memory optimized and runs on standard commodity hardware. We also recommend disabling the following parameter:
+
+- MS Annika Detector Node:
+  - Doublet Selection:
+    - Try infer missing charge states: False (If this parameter is not visible, please check that `Show Advanced Parameters` is on).
+
 ## Support for MGF and timsTOF Data
 
 The following MS Annika versions support MGF\* and timsTOF\*\* data input:
