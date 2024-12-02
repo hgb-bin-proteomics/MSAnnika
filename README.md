@@ -42,7 +42,7 @@ The [tutorial](#Tutorial) also covers the installation in detail.
 ## Usage
 
 MS Annika makes use of the workflow interface in Proteome Discoverer, which should be straight-forward to use. Step by step instructions for people
-unfamiliar with Proteome Discoverer are given in the [tutorial](#Tutorial). The below sections also give an overview of parameters, results, example workflows and example data. Typically an analysis with MS Annika takes a few minutes for small samples and up to a few hours for larger samples and proteome-wide searches.
+unfamiliar with Proteome Discoverer are given in the [tutorial](#Tutorial). The below sections also give an overview of parameters, results, example workflows and example data. Typically an analysis with MS Annika takes a few minutes for small samples and up to a few hours for larger samples and proteome-wide searches. Please also refer to the specific sections for Astral and timsTOF data if you are analyzing such data.
 
 ## Parameters & Results
 
@@ -87,6 +87,14 @@ For MS2 searches (CID, ETD, HCD, stepped HCD) it can also be beneficial to emplo
 - DSSO MS2 search with IMP MS2 Spectrum Processor: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_IMP_MS2.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_IMP_MS2.zip)
 
 This workflow additionally requires the installation of the [IMP MS2 Spectrum Processor](https://ms.imp.ac.at/?action=spectrum-processor) node beforehand, which can be directly downloaded from [here (Proteome Discoverer 3.0)](https://ms.imp.ac.at/?file=spectrum-processor/ms2spectrumprocessor_3.0.zip).
+
+## Support for Astral Data
+
+In order to process crosslinking data from Astral instruments we recommend using [MS Annika 3.0 v3.0.5](https://github.com/hgb-bin-proteomics/MSAnnika/releases/tag/v3.0.5) or greater (e.g. [**latest**](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/releases/latest/PD3.1/latest.zip)). Although theoretically all MS Annika versions support Astral data, earlier versions require sufficient hardware for processing RAW files of more than 100 000 spectra (specifically enough memory, 128GB+ is recommended). MS Annika version 3.0.5+ is memory optimized and runs on standard commodity hardware. We also recommend disabling the following parameter:
+
+- MS Annika Detector Node:
+  - Doublet Selection:
+    - Try infer missing charge states: False (If this parameter is not visible, please check that `Show Advanced Parameters` is on).
 
 ## Support for MGF and timsTOF Data
 
