@@ -42,7 +42,7 @@ The [tutorial](#Tutorial) also covers the installation in detail.
 ## Usage
 
 MS Annika makes use of the workflow interface in Proteome Discoverer, which should be straight-forward to use. Step by step instructions for people
-unfamiliar with Proteome Discoverer are given in the [tutorial](#Tutorial). The below sections also give an overview of parameters, results, example workflows and example data. Typically an analysis with MS Annika takes a few minutes for small samples and up to a few hours for larger samples and proteome-wide searches.
+unfamiliar with Proteome Discoverer are given in the [tutorial](#Tutorial). The below sections also give an overview of parameters, results, example workflows and example data. Typically an analysis with MS Annika takes a few minutes for small samples and up to a few hours for larger samples and proteome-wide searches. Please also refer to the specific sections for Astral and timsTOF data if you are analyzing such data.
 
 ## Parameters & Results
 
