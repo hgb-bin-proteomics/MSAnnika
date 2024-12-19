@@ -6,7 +6,7 @@ MS Annika is a crosslink search engine based on [MS Amanda](https://dx.doi.org/1
 
 | Description                | URL                                                                                    |
 |:---------------------------|:---------------------------------------------------------------------------------------|
-| MS Annika 3.0 Pre-Print:   | [doi.org/10.1101/2024.09.03.610962](https://doi.org/10.1101/2024.09.03.610962)         |
+| MS Annika 3.0 Publication: | [doi.org/10.1038/s42004-024-01386-x](https://doi.org/10.1038/s42004-024-01386-x)       |
 | MS Annika 2.0 Publication: | [doi.org/10.1021/acs.jproteome.3c00325](https://doi.org/10.1021/acs.jproteome.3c00325) |
 | MS Annika 1.0 Publication: | [doi.org/10.1021/acs.jproteome.0c01000](https://doi.org/10.1021/acs.jproteome.0c01000) |
 | IMP PD Nodes Website:      | [ms.imp.ac.at/?action=ms-annika](https://ms.imp.ac.at/?action=ms-annika)               |
@@ -129,14 +129,21 @@ development of MS Annika please contact us and we are happy to team up!
 
 ## Citing
 
-If you are using MS Annika please cite:
+If you are using MS Annika please cite [MS Annika 3.0](https://doi.org/10.1038/s42004-024-01386-x):
+```
+Proteome-wide non-cleavable crosslink identification with MS Annika 3.0 reveals the structure of the C. elegans Box C/D complex
+Micha J. Birklbauer, Fränze Müller, Sowmya Sivakumar Geetha, Manuel Matzinger, Karl Mechtler, and Viktoria Dorfer
+Communications Chemistry 2024 7 (300)
+DOI: 10.1038/s42004-024-01386-x
+```
+or [MS Annika 2.0](https://doi.org/10.1021/acs.jproteome.3c00325):
 ```
 MS Annika 2.0 Identifies Cross-Linked Peptides in MS2–MS3-Based Workflows at High Sensitivity and Specificity
 Micha J. Birklbauer, Manuel Matzinger, Fränze Müller, Karl Mechtler, and Viktoria Dorfer
 Journal of Proteome Research 2023 22 (9), 3009-3021
 DOI: 10.1021/acs.jproteome.3c00325
 ```
-or
+or [MS Annika 1.0](https://doi.org/10.1021/acs.jproteome.0c01000):
 ```
 MS Annika: A New Cross-Linking Search Engine
 Georg J. Pirklbauer, Christian E. Stieger, Manuel Matzinger, Stephan Winkler, Karl Mechtler, and Viktoria Dorfer
