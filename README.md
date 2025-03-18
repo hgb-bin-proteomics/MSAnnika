@@ -23,7 +23,9 @@ MS Annika is a crosslink search engine based on [MS Amanda](https://dx.doi.org/1
 
 A list of changes in every version can be found in [HISTORY.md](https://github.com/hgb-bin-proteomics/MSAnnika/blob/master/HISTORY.md).
 
-*Please note that only MS Annika 3.0 (and above) supports identification of non-cleavable crosslinks and only MS Annika 2.0 (and above) supports identification from MS2-MS2-based acquisition workflows!*
+> [!Important]
+> *Please note that only MS Annika 3.0 (and above) supports identification of non-cleavable crosslinks and only MS Annika 2.0 (and above) supports
+> identification from MS2-MS3-based acquisition workflows!*
 
 ## Installation
 
