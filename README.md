@@ -26,6 +26,7 @@ with a graphical user interface for easy setup and extensive documentation for c
 
 | Version | Download URL |
 |:--------|:-------------|
+| Latest MS Annika 3.0 [version](https://raw.githubusercontent.com/hgb-bin-proteomics/MSAnnika/master/releases/latest/PD3.2/version.txt) for Proteome Discoverer 3.2 | [**download**](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/releases/latest/PD3.2/latest.zip) |
 | Latest MS Annika 3.0 [version](https://raw.githubusercontent.com/hgb-bin-proteomics/MSAnnika/master/releases/latest/PD3.1/version.txt) for Proteome Discoverer 3.1 | [**download**](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/releases/latest/PD3.1/latest.zip) |
 | Latest MS Annika 2.0 [version](https://raw.githubusercontent.com/hgb-bin-proteomics/MSAnnika/master/releases/latest/PD3.0/version.txt) for Proteome Discoverer 3.0 | [**download**](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/releases/latest/PD3.0/latest.zip) |
 | Latest MS Annika 2.0 [version](https://raw.githubusercontent.com/hgb-bin-proteomics/MSAnnika/master/releases/latest/PD2.5/version.txt) for Proteome Discoverer 2.5 | [**download**](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/releases/latest/PD2.5/latest.zip) |
