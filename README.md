@@ -78,7 +78,7 @@ Example files to try MS Annika 3.0 can either be downloaded from [PRIDE](https:/
 
 Example workflows that can be used in Proteome Discoverer:
 
-- Proteome Discoverer 3.0 / 3.1:
+- Proteome Discoverer 3.0 / 3.1 / 3.2:
   - DSS/BS3 MS2 search (CID, ETD, HCD, stepped HCD): [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.1/DSS.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.1/DSS.zip)
   - DSS/BS3 MS2 search (for large datasets and proteome-wide searches, CID, ETD, HCD, stepped HCD): [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.1/DSS_big.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.1/DSS_big.zip)
   - DSSO MS2 search (CID, ETD, HCD, stepped HCD): [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_MS2.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_MS2.zip)
@@ -101,6 +101,11 @@ For MS2 searches (CID, ETD, HCD, stepped HCD) it can also be beneficial to emplo
 - DSSO MS2 search with IMP MS2 Spectrum Processor: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_IMP_MS2.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/PD3.0/DSSO_IMP_MS2.zip)
 
 This workflow additionally requires the installation of the [IMP MS2 Spectrum Processor](https://ms.imp.ac.at/?action=spectrum-processor) node beforehand, which can be directly downloaded from [here (Proteome Discoverer 3.0)](https://ms.imp.ac.at/?file=spectrum-processor/ms2spectrumprocessor_3.0.zip).
+
+> [!Note]
+> When starting these workflows you might get a warning in Proteome Discoverer that certain parameters do not exist, 
+> even though all parameters are set in the workflow. This is because of different MS Annika versions that have different
+> parameter sets. You can safely ignore these warnings!
 
 ## Support for Astral Data
 
