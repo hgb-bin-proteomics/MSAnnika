@@ -1,5 +1,15 @@
 # History
 
+## MS Annika 3.0 v3.0.7
+
+- Release date: 9. April 2025
+- Supported Proteome Discoverer versions: 3.1, 3.2
+- Changes:
+  - Minor:
+    - Upgrade to Net8.0 (only for Proteome Discoverer 3.2)
+    - Support for custom digestion rules and multi-digestion workflows
+    - Removed xiVIEW Exporter node, it's recommended to use [MS Annika exporters](https://github.com/hgb-bin-proteomics/MSAnnika_exporters) instead
+
 ## MS Annika 3.0 v3.0.5
 
 - Release date: 2. December 2024
