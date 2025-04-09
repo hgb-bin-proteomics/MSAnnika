@@ -1,5 +1,7 @@
 # MS Annika
 
+<img src="logo/annika_logo.png" align="left" width="175px"/>
+
 MS Annika is a crosslink search engine based on [MS Amanda](https://dx.doi.org/10.1021/pr500202e), aimed at identifying crosslinks of cleavable and non-cleavable crosslinkers from MS2 and MS3 spectra.
 
 **You can read more about MS Annika here:**
