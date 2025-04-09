@@ -102,7 +102,7 @@ For MS2 searches (CID, ETD, HCD, stepped HCD) it can also be beneficial to emplo
 
 This workflow additionally requires the installation of the [IMP MS2 Spectrum Processor](https://ms.imp.ac.at/?action=spectrum-processor) node beforehand, which can be directly downloaded from [here (Proteome Discoverer 3.0)](https://ms.imp.ac.at/?file=spectrum-processor/ms2spectrumprocessor_3.0.zip).
 
-> [!Tip]
+> [!Note]
 > You might get a warning in Proteome Discoverer that certain parameters do not exist, this is because of different MS Annika
 > versions that have different parameter sets. You can ignore these warnings!
 
