@@ -115,6 +115,44 @@ In order to process crosslinking data from Astral instruments we recommend using
   - Doublet Selection:
     - Try infer missing charge states: False (If this parameter is not visible, please check that `Show Advanced Parameters` is on).
 
+### Recommendations for Astral Data
+
+We recommend running searches on Astral data in Proteome Discoverer 3.1 using [MS Annika 3.0 v3.0.7](https://github.com/hgb-bin-proteomics/MSAnnika/releases/tag/v3.0.7). For your convenience, we
+also supply several analysis templates for Astral searches. Please note that all of these workflows additionally require the installation of [MS Amanda](https://dx.doi.org/10.1021/pr500202e) which can be downloaded [here](https://github.com/hgb-bin-proteomics/MSAmanda) or installed via the Proteome Discoverer Third-Party installer.
+
+- Astral DSSO search: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSSO.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSSO.zip)
+- Astral DSBSO search: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSBSO.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSBSO.zip)
+- Astral DSS search: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSS.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSS.zip)
+- Astral PhoX search: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_PhoX.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_PhoX.zip)
+
+We generally also recommend deisotoping spectra e.g. via the [IMP MS2 Spectrum Processor](https://ms.imp.ac.at/?action=spectrum-processor). The following workflows can be used with the IMP MS2
+Spectrum Processor node:
+
+- Astral DSSO search with deisotoping: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSSO_deiso.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSSO_deiso.zip)
+- Astral DSBSO search with deisotoping: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSBSO_deiso.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSBSO_deiso.zip)
+- Astral DSS search with deisotoping: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSS_deiso.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSS_deiso.zip)
+- Astral PhoX search with deisotoping: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_PhoX_deiso.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_PhoX_deiso.zip)
+
+### Expected Performance on Astral Data
+
+Expand the table below for some benchmarks using data from [this publication]():
+
+<details><summary>Expand for benchmark data!</summary>
+
+**Hardware**
+
+The system we tested this on was a desktop PC with the following hardware:
+- MB: ASUS ROG Strix B650E-I
+- CPU: AMD Ryzen 7900X [12 cores @ 4.7 GHz base / 5.6 GHz boost]
+- RAM: Kingston 64 GB DDR5 RAM [5600 MT/s, 36 CAS]
+- GPU: ASUS Dual [Nvidia] GeForce RTX 4060 Ti OC [16 GB VRAM]*
+- SSD/HDD: Corsair MP600 Pro NH 2 TB NVMe SSD [PCIe 4.0]
+- OS: Windows 11 Pro 64-bit (10.0, Build 22631)
+
+*_Note:_ `Dual` _is part of the name, this is a single graphics card!_
+
+</details>
+
 ## Support for MGF and timsTOF Data
 
 The following MS Annika versions support MGF\* and timsTOF\*\* data input:
