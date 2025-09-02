@@ -141,6 +141,21 @@ Expand the table below for some benchmarks using data from [this publication]():
 
 **Hardware**
 
+| Filename                                                                               | Filesize | Nr. Of MS2 Spectra | Crosslinker | IMP MS2 Spectrum Processor | Protein DB Size | Protein DB Description | Analysis Mode | Nr. Of Crosslinks @ 1% FDR | Runtime  | Runtime Per File |
+|----------------------------------------------------------------------------------------|----------|--------------------|-------------|----------------------------|-----------------|------------------------|---------------|----------------------------|----------|------------------|
+| 20240926_Astral_Neo1_Mueller_MS_TechHub_IMP_THIDDIAXL001_Cas9_DSSO_500ng_FAIMS_001.raw | 5.57 GB  | 176242             | DSSO        | Yes                        | 116             | Cas9 + crapome         | Sequential    | 981                        | 0h 52min | 0h 52min         |
+| 20240926_Astral_Neo1_Mueller_MS_TechHub_IMP_THIDDIAXL001_Cas9_DSSO_500ng_FAIMS_001.raw | 5.57 GB  | 176242             | DSSO        | No                         | 116             | Cas9 + crapome         | Sequential    | 878                        | 0h 50min | 0h 50min         |
+| 20240926_Astral_Neo1_Mueller_MS_TechHub_IMP_THIDDIAXL001_Cas9_DSSO_500ng_FAIMS_001.raw | 5.57 GB  | 176242             | DSSO        | Yes                        | 20328           | Cas9 + Human SwissProt | Sequential    | 506                        | 3h 23min | 3h 23min         |
+| 20240926_Astral_Neo1_Mueller_MS_TechHub_IMP_THIDDIAXL001_Cas9_DSSO_500ng_FAIMS_001.raw | 5.57 GB  | 176242             | DSSO        | No                         | 20328           | Cas9 + Human SwissProt | Sequential    | 381                        | 2h 00min | 2h 00min         |
+| 20250605_Astral2_NEO1_Mueller_MS_TechHub_IMP_THIDRV001_Cas9_PhoX_500ng_FAIMS_001.raw   | 4.70 GB  | 175791             | PhoX        | Yes                        | 116             | Cas9 + crapome         | Sequential    | 1475                       | 0h 26min | 0h 26min         |
+| 20250605_Astral2_NEO1_Mueller_MS_TechHub_IMP_THIDRV001_Cas9_PhoX_500ng_FAIMS_001.raw   | 4.70 GB  | 175791             | PhoX        | No                         | 116             | Cas9 + crapome         | Sequential    | 1420                       | 0h 25min | 0h 25min         |
+| 20250605_Astral2_NEO1_Mueller_MS_TechHub_IMP_THIDRV001_Cas9_PhoX_500ng_FAIMS_001.raw   | 4.70 GB  | 175791             | PhoX        | Yes                        | 20328           | Cas9 + Human SwissProt | Sequential    | 484                        | 2h 29min | 2h 29min         |
+| 20250605_Astral2_NEO1_Mueller_MS_TechHub_IMP_THIDRV001_Cas9_PhoX_500ng_FAIMS_001.raw   | 4.70 GB  | 175791             | PhoX        | No                         | 20328           | Cas9 + Human SwissProt | Sequential    | 422                        | 2h 48min | 2h 48min         |
+| 20250605_Astral2_NEO1_Mueller_MS_TechHub_IMP_THIDRV001_Cas9_PhoX_250ng_FAIMS_003.raw   | 3.94 GB  | 172343             | PhoX        | Yes                        | 20328           | Cas9 + Human SwissProt | Parallel      | 483                        | 4h 40min | 1h 14min         |
+| 20250605_Astral2_NEO1_Mueller_MS_TechHub_IMP_THIDRV001_Cas9_PhoX_500ng_FAIMS_001.raw   | 4.70 GB  | 175791             | PhoX        | Yes                        | 20328           | Cas9 + Human SwissProt | Parallel      | 484                        | 4h 54min | 1h 14min         |
+| 20250605_Astral2_NEO1_Mueller_MS_TechHub_IMP_THIDRV001_Cas9_PhoX_500ng_FAIMS_002.raw   | 4.89 GB  | 176110             | PhoX        | Yes                        | 20328           | Cas9 + Human SwissProt | Parallel      | 344                        | 4h 51min | 1h 14min         |
+| 20250605_Astral2_NEO1_Mueller_MS_TechHub_IMP_THIDRV001_Cas9_PhoX_500ng_FAIMS_003.raw   | 3.00 GB  | 134395             | PhoX        | Yes                        | 20328           | Cas9 + Human SwissProt | Parallel      | 38                         | 3h 27min | 1h 14min         |
+
 The system we tested this on was a desktop PC with the following hardware:
 - MB: ASUS ROG Strix B650E-I
 - CPU: AMD Ryzen 7900X [12 cores @ 4.7 GHz base / 5.6 GHz boost]
