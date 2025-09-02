@@ -122,6 +122,7 @@ also supply several analysis templates for Astral searches. Please note that all
 
 - Astral DSSO search: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSSO.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSSO.zip)
 - Astral DSBSO search: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSBSO.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSBSO.zip)
+- Astral DSBU search: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSBU.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSBU.zip)
 - Astral DSS search: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSS.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSS.zip)
 - Astral PhoX search: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_PhoX.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_PhoX.zip)
 
@@ -130,6 +131,7 @@ Spectrum Processor node:
 
 - Astral DSSO search with deisotoping: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSSO_deiso.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSSO_deiso.zip)
 - Astral DSBSO search with deisotoping: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSBSO_deiso.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSBSO_deiso.zip)
+- Astral DSBU search with deisotoping: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSBU_deiso.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSBU_deiso.zip)
 - Astral DSS search with deisotoping: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSS_deiso.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSS_deiso.zip)
 - Astral PhoX search with deisotoping: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_PhoX_deiso.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_PhoX_deiso.zip)
 
