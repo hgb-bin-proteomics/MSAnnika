@@ -139,7 +139,7 @@ Expand the table below for some benchmarks using data from [this publication]():
 
 <details><summary>Expand for benchmark data!</summary>
 
-**Hardware**
+**Results**
 
 | Filename                                                                               | Filesize | Nr. Of MS2 Spectra | Crosslinker | IMP MS2 Spectrum Processor | Protein DB Size | Protein DB Description | Analysis Mode | Nr. Of Crosslinks @ 1% FDR | Runtime  | Runtime Per File |
 |----------------------------------------------------------------------------------------|----------|--------------------|-------------|----------------------------|-----------------|------------------------|---------------|----------------------------|----------|------------------|
@@ -155,6 +155,8 @@ Expand the table below for some benchmarks using data from [this publication]():
 | 20250605_Astral2_NEO1_Mueller_MS_TechHub_IMP_THIDRV001_Cas9_PhoX_500ng_FAIMS_001.raw   | 4.70 GB  | 175791             | PhoX        | Yes                        | 20328           | Cas9 + Human SwissProt | Parallel      | 484                        | 4h 54min | 1h 14min         |
 | 20250605_Astral2_NEO1_Mueller_MS_TechHub_IMP_THIDRV001_Cas9_PhoX_500ng_FAIMS_002.raw   | 4.89 GB  | 176110             | PhoX        | Yes                        | 20328           | Cas9 + Human SwissProt | Parallel      | 344                        | 4h 51min | 1h 14min         |
 | 20250605_Astral2_NEO1_Mueller_MS_TechHub_IMP_THIDRV001_Cas9_PhoX_500ng_FAIMS_003.raw   | 3.00 GB  | 134395             | PhoX        | Yes                        | 20328           | Cas9 + Human SwissProt | Parallel      | 38                         | 3h 27min | 1h 14min         |
+
+**Hardware**
 
 The system we tested this on was a desktop PC with the following hardware:
 - MB: ASUS ROG Strix B650E-I
