@@ -135,7 +135,10 @@ Spectrum Processor node:
 
 ### Expected Performance on Astral Data
 
-Expand the table below for some benchmarks using data from [this publication]():
+Giving an estimate on performance is hard without knowing the specific sample and data analysis hardware, but full human-proteome-wide searches should roughly
+take between 2h-3h per file on modern hardware.
+
+Expand the table below for some benchmarks using data from [this publication](https://doi.org/10.1101/2024.12.21.629875):
 
 <details><summary>Expand for benchmark data!</summary>
 
