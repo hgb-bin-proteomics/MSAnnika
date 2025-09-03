@@ -115,6 +115,66 @@ In order to process crosslinking data from Astral instruments we recommend using
   - Doublet Selection:
     - Try infer missing charge states: False (If this parameter is not visible, please check that `Show Advanced Parameters` is on).
 
+### Recommendations for Astral Data
+
+We recommend running searches on Astral data in Proteome Discoverer 3.1 using [MS Annika 3.0 v3.0.7](https://github.com/hgb-bin-proteomics/MSAnnika/releases/tag/v3.0.7). For your convenience, we
+also supply several analysis templates for Astral searches. Please note that all of these workflows additionally require the installation of [MS Amanda](https://dx.doi.org/10.1021/pr500202e) which can be downloaded [here](https://github.com/hgb-bin-proteomics/MSAmanda) or installed via the Proteome Discoverer Third-Party installer.
+
+- Astral DSSO search: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSSO.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSSO.zip)
+- Astral DSBSO search: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSBSO.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSBSO.zip)
+- Astral DSBU search: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSBU.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSBU.zip)
+- Astral DSS search: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSS.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSS.zip)
+- Astral PhoX search: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_PhoX.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_PhoX.zip)
+
+We generally also recommend deisotoping spectra e.g. via the [IMP MS2 Spectrum Processor](https://ms.imp.ac.at/?action=spectrum-processor). The following workflows can be used with the IMP MS2
+Spectrum Processor node:
+
+- Astral DSSO search with deisotoping: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSSO_deiso.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSSO_deiso.zip)
+- Astral DSBSO search with deisotoping: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSBSO_deiso.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSBSO_deiso.zip)
+- Astral DSBU search with deisotoping: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSBU_deiso.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSBU_deiso.zip)
+- Astral DSS search with deisotoping: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSS_deiso.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_DSS_deiso.zip)
+- Astral PhoX search with deisotoping: [pdAnalysis](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_PhoX_deiso.pdAnalysis) / [zip](https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/workflows/astral/PD3.1/Astral_PhoX_deiso.zip)
+
+### Expected Performance on Astral Data
+
+Giving an estimate on performance is hard without knowing the specific sample and data analysis hardware, but full human-proteome-wide searches should roughly
+take between 2h-3h per file on modern hardware.
+
+Expand the table below for some benchmarks using data from [this publication](https://doi.org/10.1101/2024.12.21.629875):
+
+<details><summary>Expand for benchmark data!</summary>
+
+**Results**
+
+| Filename                                                                               | Filesize | Nr. Of MS2 Spectra | Crosslinker | IMP MS2 Spectrum Processor | Protein DB Size | Protein DB Description | Analysis Mode | Nr. Of Crosslinks @ 1% FDR | Runtime  | Runtime Per File |
+|----------------------------------------------------------------------------------------|----------|--------------------|-------------|----------------------------|-----------------|------------------------|---------------|----------------------------|----------|------------------|
+| 20240926_Astral_Neo1_Mueller_MS_TechHub_IMP_THIDDIAXL001_Cas9_DSSO_500ng_FAIMS_001.raw | 5.57 GB  | 176242             | DSSO        | Yes                        | 116             | Cas9 + crapome         | Sequential    | 981                        | 0h 52min | 0h 52min         |
+| 20240926_Astral_Neo1_Mueller_MS_TechHub_IMP_THIDDIAXL001_Cas9_DSSO_500ng_FAIMS_001.raw | 5.57 GB  | 176242             | DSSO        | No                         | 116             | Cas9 + crapome         | Sequential    | 878                        | 0h 50min | 0h 50min         |
+| 20240926_Astral_Neo1_Mueller_MS_TechHub_IMP_THIDDIAXL001_Cas9_DSSO_500ng_FAIMS_001.raw | 5.57 GB  | 176242             | DSSO        | Yes                        | 20328           | Cas9 + Human SwissProt | Sequential    | 506                        | 3h 23min | 3h 23min         |
+| 20240926_Astral_Neo1_Mueller_MS_TechHub_IMP_THIDDIAXL001_Cas9_DSSO_500ng_FAIMS_001.raw | 5.57 GB  | 176242             | DSSO        | No                         | 20328           | Cas9 + Human SwissProt | Sequential    | 381                        | 2h 00min | 2h 00min         |
+| 20250605_Astral2_NEO1_Mueller_MS_TechHub_IMP_THIDRV001_Cas9_PhoX_500ng_FAIMS_001.raw   | 4.70 GB  | 175791             | PhoX        | Yes                        | 116             | Cas9 + crapome         | Sequential    | 1475                       | 0h 26min | 0h 26min         |
+| 20250605_Astral2_NEO1_Mueller_MS_TechHub_IMP_THIDRV001_Cas9_PhoX_500ng_FAIMS_001.raw   | 4.70 GB  | 175791             | PhoX        | No                         | 116             | Cas9 + crapome         | Sequential    | 1420                       | 0h 25min | 0h 25min         |
+| 20250605_Astral2_NEO1_Mueller_MS_TechHub_IMP_THIDRV001_Cas9_PhoX_500ng_FAIMS_001.raw   | 4.70 GB  | 175791             | PhoX        | Yes                        | 20328           | Cas9 + Human SwissProt | Sequential    | 484                        | 2h 29min | 2h 29min         |
+| 20250605_Astral2_NEO1_Mueller_MS_TechHub_IMP_THIDRV001_Cas9_PhoX_500ng_FAIMS_001.raw   | 4.70 GB  | 175791             | PhoX        | No                         | 20328           | Cas9 + Human SwissProt | Sequential    | 422                        | 2h 48min | 2h 48min         |
+| 20250605_Astral2_NEO1_Mueller_MS_TechHub_IMP_THIDRV001_Cas9_PhoX_250ng_FAIMS_003.raw   | 3.94 GB  | 172343             | PhoX        | Yes                        | 20328           | Cas9 + Human SwissProt | Parallel      | 483                        | 4h 40min | 1h 14min         |
+| 20250605_Astral2_NEO1_Mueller_MS_TechHub_IMP_THIDRV001_Cas9_PhoX_500ng_FAIMS_001.raw   | 4.70 GB  | 175791             | PhoX        | Yes                        | 20328           | Cas9 + Human SwissProt | Parallel      | 484                        | 4h 54min | 1h 14min         |
+| 20250605_Astral2_NEO1_Mueller_MS_TechHub_IMP_THIDRV001_Cas9_PhoX_500ng_FAIMS_002.raw   | 4.89 GB  | 176110             | PhoX        | Yes                        | 20328           | Cas9 + Human SwissProt | Parallel      | 344                        | 4h 51min | 1h 14min         |
+| 20250605_Astral2_NEO1_Mueller_MS_TechHub_IMP_THIDRV001_Cas9_PhoX_500ng_FAIMS_003.raw   | 3.00 GB  | 134395             | PhoX        | Yes                        | 20328           | Cas9 + Human SwissProt | Parallel      | 38                         | 3h 27min | 1h 14min         |
+
+**Hardware**
+
+The system we tested this on was a desktop PC with the following hardware:
+- MB: ASUS ROG Strix B650E-I
+- CPU: AMD Ryzen 7900X [12 cores @ 4.7 GHz base / 5.6 GHz boost]
+- RAM: Kingston 64 GB DDR5 RAM [5600 MT/s, 36 CAS]
+- GPU: ASUS Dual [Nvidia] GeForce RTX 4060 Ti OC [16 GB VRAM]*
+- SSD/HDD: Corsair MP600 Pro NH 2 TB NVMe SSD [PCIe 4.0]
+- OS: Windows 11 Pro 64-bit (10.0, Build 22631)
+
+*_Note:_ `Dual` _is part of the name, this is a single graphics card!_
+
+</details>
+
 ## Support for MGF and timsTOF Data
 
 The following MS Annika versions support MGF\* and timsTOF\*\* data input:
