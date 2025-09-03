@@ -1,8 +1,0 @@
-This directory contains pre-release versions of MS Annika. These versions are stable development versions, that might however still contain some bugs and are not yet optimized.
-These versions only come in the from of DLLs and without an installer. To install it, do the following steps:
-- First install one of the previous MS Annika versions for your Proteome Discoverer version.
-- Navigate to the installation directory of Proteome Discoverer:
-	- For example: C:/Program Files/Thermo/Proteome Discoverer 3.1/Proteome Discoverer 3.1/Thermo.Magellan.Server
-- Copy and paste all MS Annika DLLs into that folder.
-- Open a terminal in that folder and run "Thermo.Magellan.Server.exe -install".
-- Done!
