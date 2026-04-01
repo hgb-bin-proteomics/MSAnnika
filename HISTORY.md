@@ -1,5 +1,17 @@
 # History
 
+## MS Annika 3.1 v3.1.1
+
+- Release date: 1. April 2026
+- Supported Proteome Discoverer versions: 3.3
+- Changes:
+  - Minor:
+    - MS Annika no longer reports PSMs for crosslinked peptides in the Proteome Discoverer PSM table
+    - The reported MS1 error calculation was updated to be more accurate, this can still be off for non-monoisotopic precursors but is only a display error. The error is at all cases below the set tolerance!
+    - Several improvements for better error handling and more information directly displayed to the user
+    - Upgraded the internal MessagePack version
+    - Slight performance improvements should be noticeable due to the above changes
+
 ## MS Annika 3.0 v3.0.7
 
 - Release date: 9. April 2025
