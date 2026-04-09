@@ -64,6 +64,10 @@ unfamiliar with Proteome Discoverer are given in the [tutorial](#Tutorial). The 
 Please refer to the [MS Annika User Manual](https://github.com/hgb-bin-proteomics/MSAnnika/blob/master/MS_Annika_3.0_UserManual.pdf) for a detailed description of all MS Annika parameters as
 well as descriptions of all result tables. For further down-stream analysis of MS Annika results we recommend taking a look at [MS Annika Extensions](https://github.com/hgb-bin-proteomics/MSAnnika_Extensions).
 
+## Validation
+
+MS Annika provides basic validation at the crosslink-spectrum-match and peptide pair or residue pair level. However, for more sophisticated validation we recommend using MS Annika in combination with xiFDR ([GitHub](https://github.com/Rappsilber-Laboratory/xifdr) / [Homepage](https://www.rappsilberlab.org/software/xifdr/)). We [have shown](https://doi.org/10.1038/s42004-024-01386-x) that using MS Annika with xiFDR provides better results than MS Annika alone. You can use xiFDR for validation of MS Annika results by exporting your crosslink-spectrum-matches (CSMs) in Proteome Discoverer and uploading them to [pyXLMS](https://hgb-bin-proteomics.github.io/pyXLMS-app) ➡️ go to the `Export` tab ➡️ and under `Export Crosslink-Spectrum-Matches` select `xiFDR`. The exported file can then be directly used with xiFDR for validation and aggregation to protein-protein interaction level.
+
 ## Tutorial
 
 A tutorial of how to use MS Annika 3.0 can be found here: [Text](https://github.com/hgb-bin-proteomics/MSAnnika/blob/master/tutorial/MS_Annika_3.0_Tutorial.pdf) / [Video](https://www.youtube.com/watch?v=L1lVt35PYv4)
@@ -104,7 +108,7 @@ For MS2 searches (CID, ETD, HCD, stepped HCD) it can also be beneficial to emplo
 This workflow additionally requires the installation of the [IMP MS2 Spectrum Processor](https://ms.imp.ac.at/?action=spectrum-processor) node beforehand, which can be directly downloaded from [here (Proteome Discoverer 3.0)](https://ms.imp.ac.at/?file=spectrum-processor/ms2spectrumprocessor_3.0.zip) or [here (Proteome Discoverer 3.3)](https://ms.imp.ac.at/?file=software_new/IMP.SpectrumProcessorNode/v1.0.3/PD3.3/PD3.3.zip).
 
 > [!Note]
-> When starting these workflows you might get a warning in Proteome Discoverer that certain parameters do not exist, 
+> When starting these workflows you might get a warning in Proteome Discoverer that certain parameters do not exist,
 > even though all parameters are set in the workflow. This is because of different MS Annika versions that have different
 > parameter sets. You can safely ignore these warnings!
 
