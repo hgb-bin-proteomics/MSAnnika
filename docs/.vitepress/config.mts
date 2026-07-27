@@ -55,7 +55,6 @@ export default defineConfig({
       },
     ],
     footer: {
-      message: "Released under the MIT License.",
       copyright: "Copyright © 2026 Micha J. Birklbauer"
     },
     socialLinks: [{ icon: "github", link: "https://github.com/hgb-bin-proteomics/MSAnnika" }],
