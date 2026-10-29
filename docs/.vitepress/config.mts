@@ -21,6 +21,7 @@ export default defineConfig({
      dark: "catppuccin-mocha",
     },
   },
+  lastUpdated: true,
   themeConfig: {
     logo: {
       src: "https://github.com/hgb-bin-proteomics/MSAnnika/raw/master/logo/annika_logo.png",
@@ -60,6 +61,9 @@ export default defineConfig({
     socialLinks: [{ icon: "github", link: "https://github.com/hgb-bin-proteomics/MSAnnika" }],
     search: {
         provider: 'local'
+    },
+    editLink: {
+      pattern: 'https://github.com/hgb-bin-proteomics/MSAnnika/edit/master/docs/md/:path'
     },
   },
 })
